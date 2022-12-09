@@ -6,7 +6,7 @@ from setuptools import find_packages, setup
 version_path = path.join(path.abspath(path.dirname(__file__)), 'script/__version__.md')
 
 
-install_requires = []
+install_requires = ['notebuild','notesecret','celery', 'redis', 'flower','uvicorn','fastapi']
 
 setup(name='noteworker',
       version=read_version(version_path),
