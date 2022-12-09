@@ -1,4 +1,4 @@
-from celery import Celery
+from celery import Task
 
 
 class WorkTask(Task):
