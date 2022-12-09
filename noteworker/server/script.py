@@ -3,7 +3,6 @@ import os
 from notebuild.core.core import command_line_parser
 from notebuild.manage import BaseServer, ServerManage
 
-
 # lsof -t -i:8102
 # sudo kill -9 `sudo lsof -t -i:8102`
 
@@ -28,7 +27,7 @@ class WorkerServer(BaseServer):
         manage.start()
 
 
-def notecoin():
+def noteworker():
     args = command_line_parser()
     package = WorkerServer()
     if args.command == 'init':

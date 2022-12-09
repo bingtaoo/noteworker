@@ -21,5 +21,5 @@ setup(name='noteworker',
       # include_package_data=True,
       install_requires=install_requires,
       entry_points={'console_scripts': [
-          'noteworker = noteworker.server.script:work']},
+          'noteworker = noteworker.server.script:noteworker']},
       )
